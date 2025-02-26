@@ -1,10 +1,7 @@
 # Network Fundamentals
 
-## Welcome!
-Welcome to **Network Fundamentals**! This beginner-level course requires no prior knowledge of networking or cybersecurity.
-
 ## Key Terms
-Below are key terms essential for this course. Most definitions are from the **NIST Computer Security Resource Center**.
+
 
 - **Bit** - A binary digit (0 or 1), the atomic unit of computing.
 - **Byte** - A group of 8 bits treated as a single entity.
@@ -23,4 +20,21 @@ Below are key terms essential for this course. Most definitions are from the **N
 - **Risk** - The possibility of a threat exploiting a vulnerability.
 - **Threat Actor** - An individual or group that exploits vulnerabilities.
 
-This list will expand as you progress through the course!
+
+# Summary of the CIA Triad
+
+The **CIA Triad** is a foundational model in information security, representing the three core principles of securing data and systems. These principles are:
+
+1. **Confidentiality**:
+   - Ensures that sensitive information is accessed only by authorized individuals or systems.
+   - Techniques used: Encryption, access controls, authentication, and data classification.
+
+2. **Integrity**:
+   - Ensures that data remains accurate, complete, and unaltered during storage, processing, or transmission.
+   - Techniques used: Checksums, hashing, digital signatures, and version control.
+
+3. **Availability**:
+   - Ensures that data and resources are accessible to authorized users when needed.
+   - Techniques used: Redundancy, backups, failover systems, and disaster recovery plans.
+
+The CIA Triad is essential for designing and evaluating security policies, procedures, and technologies to protect information assets effectively.
