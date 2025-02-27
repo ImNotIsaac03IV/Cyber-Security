@@ -5,11 +5,11 @@ A network consists of two or more connected computers that share resources, file
 ## Network Devices
 
 ### **Router**
-- **Function**: Connects networks and routes traffic between them.
+- **Function**:  Connects different networks and routes traffic between them using IP addresses.
 - **Example**: Connects your home network to the internet.
 
 ### **Switch (Ethernet Switch)**
-- **Function**: Connects nodes (computers) on the same network and directs traffic to specific nodes.
+- **Function**: Connects nodes (computers) on the same network and directs traffic to specific nodes. Uses MAC addresses to direct data to specific devices within the same network.
 - **Example**: Used in offices to connect multiple computers on a LAN (Local Area Network).
 
 ### **Hub**
