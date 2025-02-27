@@ -9,7 +9,7 @@ A network consists of two or more connected computers that share resources, file
 - **Example**: Connects your home network to the internet.
 
 ### **Switch (Ethernet Switch)**
-- **Function**: Connects nodes (computers) on the same network and directs traffic to specific nodes.
+- **Function**: Connects nodes (computers) on the same network to eachother and directs traffic to specific nodes.
 - **Example**: Used in offices to connect multiple computers on a LAN (Local Area Network).
 
 ### **Hub**
