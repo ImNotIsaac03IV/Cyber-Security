@@ -5,7 +5,7 @@ A network consists of two or more connected computers that share resources, file
 ## Network Devices
 
 ### **Router**
-- **Function**: Connects networks and routes traffic between them.
+- **Function**: Connects home network to the internet and routes traffic between them.
 - **Example**: Connects your home network to the internet.
 
 ### **Switch (Ethernet Switch)**
