@@ -10,14 +10,60 @@ The OSI model is a conceptual framework that divides network communication into 
 
 ---
 
-### **Layer 1: Physical Layer**
-- **Function**: Transmits raw data bits over a physical medium.
-- **Address Type**: N/A (No addressing; deals with physical connections).
-- **Devices**: Cables, network cards, hubs, repeaters.
+### **Layer 7: Application Layer**
+- **Function**: Provides an interface for human interaction with applications.
 - **Key Details**:
-  - Transmits electrical, optical, or radio signals.
-  - Hubs operate at this layer and broadcast data to all connected devices.
-  - Examples: Ethernet cables, fiber optics, Wi-Fi signals.
+  - Handles high-level protocols like HTTP, FTP, SMTP, and DNS.
+  - Examples: Web browsers, email clients, APIs.
+  - This is where users interact with the network (e.g., sending an email or browsing a website).
+
+---
+
+### **Layer 6: Presentation Layer**
+- **Function**: Translates, formats, encrypts, and compresses data for the application layer.
+- **Key Details**:
+  - Converts data into a format that the application layer can understand (e.g., JSON, XML).
+  - Handles encryption (e.g., SSL/TLS) and compression.
+  - Ensures data is presented correctly to the user.
+
+---
+
+### **Layer 5: Session Layer**
+- **Function**: Manages sessions between applications.
+- **Key Details**:
+  - Handles **authentication**, **authorization**, and session management.
+  - Example: When you log in to a website, this layer manages your session until you log out.
+  - Protocols: NetBIOS, PPTP.
+
+---
+
+### **Layer 4: Transport Layer**
+- **Function**: Ensures reliable data delivery to applications.
+- **Address Type**: Ports (e.g., HTTP: Port 80, HTTPS: Port 443).
+- **Devices**: Routers, firewalls.
+- **Data Type**: Segments.
+  - **Segment Structure**:
+    ```
+    | TCP Header | Data Payload |
+    ```
+- **Key Details**:
+  - Uses protocols like **TCP (Transmission Control Protocol)** for reliable communication and **UDP (User Datagram Protocol)** for faster, less reliable communication.
+  - Manages flow control, error correction, and retransmission.
+
+---
+
+### **Layer 3: Network Layer**
+- **Function**: Handles addressing and routing of data between devices on different networks.
+- **Address Type**: IP Address (e.g., `192.168.3.1`).
+- **Devices**: Routers, firewalls.
+- **Data Type**: Packet.
+  - **Packet Structure**:
+    ```
+    | IP Header | TCP Header | Data Payload |
+    ```
+- **Key Details**:
+  - Determines the best path for data to travel across networks.
+  - Uses IP addresses to identify devices globally.
 
 ---
 
@@ -38,61 +84,14 @@ The OSI model is a conceptual framework that divides network communication into 
 
 ---
 
-### **Layer 3: Network Layer**
-- **Function**: Handles addressing and routing of data between devices on different networks.
-- **Address Type**: IP Address (e.g., `192.168.3.1`).
-- **Devices**: Routers, firewalls.
-- **Data Type**: Packet.
-  - **Packet Structure**:
-    ```
-    | IP Header | TCP Header | Data Payload |
-    ```
+### **Layer 1: Physical Layer**
+- **Function**: Transmits raw data bits over a physical medium.
+- **Address Type**: N/A (No addressing; deals with physical connections).
+- **Devices**: Cables, network cards, hubs, repeaters.
 - **Key Details**:
-  - Determines the best path for data to travel across networks.
-  - Uses IP addresses to identify devices globally.
-
----
-
-### **Layer 4: Transport Layer**
-- **Function**: Ensures reliable data delivery to applications.
-- **Address Type**: Ports (e.g., HTTP: Port 80, HTTPS: Port 443).
-- **Devices**: Routers, firewalls.
-- **Data Type**: Segments.
-  - **Segment Structure**:
-    ```
-    | TCP Header | Data Payload |
-    ```
-- **Key Details**:
-  - Uses protocols like **TCP (Transmission Control Protocol)** for reliable communication and **UDP (User Datagram Protocol)** for faster, less reliable communication.
-  - Manages flow control, error correction, and retransmission.
-
----
-
-### **Layer 5: Session Layer**
-- **Function**: Manages sessions between applications.
-- **Key Details**:
-  - Handles **authentication**, **authorization**, and session management.
-  - Example: When you log in to a website, this layer manages your session until you log out.
-  - Protocols: NetBIOS, PPTP.
-
----
-
-### **Layer 6: Presentation Layer**
-- **Function**: Translates, formats, encrypts, and compresses data for the application layer.
-- **Key Details**:
-  - Converts data into a format that the application layer can understand (e.g., JSON, XML).
-  - Handles encryption (e.g., SSL/TLS) and compression.
-  - Ensures data is presented correctly to the user.
-
----
-
-### **Layer 7: Application Layer**
-- **Function**: Provides an interface for human interaction with applications.
-- **Key Details**:
-  - Handles high-level protocols like HTTP, FTP, SMTP, and DNS.
-  - Examples: Web browsers, email clients, APIs.
-  - This is where users interact with the network (e.g., sending an email or browsing a website).
-
+  - Transmits electrical, optical, or radio signals.
+  - Hubs operate at this layer and broadcast data to all connected devices.
+  - Examples: Ethernet cables, fiber optics, Wi-Fi signals.
 ---
 
 ## **TCP/IP Model (4 Layers)**
