@@ -2,10 +2,12 @@
 
 A network consists of two or more connected computers that share resources, files, and services. Below are the key components of a basic network:
 
+---
+
 ## Network Devices
 
 ### **Router**
-- **Function**:  Connects different networks and routes traffic between them using IP addresses.
+- **Function**: Connects different networks and routes traffic between them using IP addresses.
 - **Example**: Connects your home network to the internet.
 
 ### **Switch (Ethernet Switch)**
@@ -40,3 +42,13 @@ A network consists of two or more connected computers that share resources, file
 | **Endpoint**| End-user devices like desktops, laptops, printers, or mobile phones.            |
 | **Server**  | A computer providing specific services (e.g., email, printing).                |
 | **Firewall**| Filters traffic between networks to protect against threats.                    |
+
+---
+
+## Key Takeaways
+- **Routers** connect different networks and route traffic using IP addresses.
+- **Switches** connect devices on the same network and use MAC addresses to direct traffic.
+- **Hubs** broadcast data to all connected devices (less efficient than switches).
+- **Firewalls** protect networks by filtering incoming and outgoing traffic.
+- **Servers** provide specific services (e.g., email, printing, web hosting).
+- **Endpoints** are devices used by end-users (e.g., laptops, phones, printers).

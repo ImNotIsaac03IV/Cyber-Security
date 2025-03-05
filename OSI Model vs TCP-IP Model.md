@@ -1,4 +1,4 @@
-# **OSI Model vs TCP/IP Model**
+# OSI Model vs TCP/IP Model
 
 The OSI (Open Systems Interconnection) model and the TCP/IP (Transmission Control Protocol/Internet Protocol) model are two frameworks used to understand network communication. Below is a detailed comparison and explanation of both models.
 
@@ -92,6 +92,7 @@ The OSI model is a conceptual framework that divides network communication into 
   - Transmits electrical, optical, or radio signals.
   - Hubs operate at this layer and broadcast data to all connected devices.
   - Examples: Ethernet cables, fiber optics, Wi-Fi signals.
+
 ---
 
 ## **TCP/IP Model (4 Layers)**
@@ -135,4 +136,8 @@ The TCP/IP model is a simplified version of the OSI model and predates it. It co
 
 ---
 
-This Markdown file provides a comprehensive overview of the OSI and TCP/IP models, including their layers, functions, and a side-by-side comparison. Save it as a `.md` file and use it for your studies or reference!
+## **Key Takeaways**
+- The **OSI model** is a **7-layer** conceptual framework for understanding network communication.
+- The **TCP/IP model** is a **4-layer** practical framework used for real-world networking.
+- Both models are essential for understanding how data flows across networks.
+- The OSI model is more detailed, while the TCP/IP model is simpler and widely used in practice.

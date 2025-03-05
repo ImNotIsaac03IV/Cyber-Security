@@ -44,3 +44,12 @@ When data is sent (e.g., typing a message), it travels through the OSI layers, g
 | **3**     | Network Layer       | Handles addressing and routing of data.                                     |
 | **2**     | Data Link Layer     | Moves data between nodes and provides error checking.                       |
 | **1**     | Physical Layer      | Transmits raw data (e.g., cables, circuits).                                |
+
+---
+
+## Key Takeaways
+- Networks connect devices to share data and resources.
+- Different types of networks (LAN, WAN, WLAN, VPN) serve different purposes.
+- Devices like routers, switches, and firewalls enable network functionality.
+- The OSI model provides a framework for understanding network communication across 7 layers.
+- Data encapsulation and de-encapsulation are fundamental processes in network communication.
