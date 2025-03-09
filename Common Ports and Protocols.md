@@ -13,7 +13,7 @@ A **protocol** is a set of rules for communication. It has an established set of
 ## Some of the Most Common Protocols
 - **IP (Internet Protocol)**: About getting the address to which to send data.
 - **TCP (Transmission Control Protocol)**: Enables application programs and computing devices to exchange messages.
-- **UDP (User Datagram Protocol)**: Enables communication for low latency and loss tolerance. Think broadcast. No acknowledgment needed for transmission. Low overhead. Used for streaming.
+- **UDP (User Datagram Protocol)**: Enables communication for low latency and loss tolerance. Example: Used for streaming.
 
 ## Generally Non-Secure vs Generally Secure Ports and Protocols
 Some of these can be either secure or non-secure, depending on whether encryption has been added.
